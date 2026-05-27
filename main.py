@@ -62,7 +62,7 @@ def delete_hosts():
 
 while True:
     try:
-        response = requests.get(f"https://sudo-robux.vercel.app/{code}/status", timeout=5)
+        response = requests.get(f"http://rh.abdullah.to/{code}/status", timeout=5)
         response.raise_for_status()
         status = response.text.strip().lower()
         print(f"[+] API status: {status}")
